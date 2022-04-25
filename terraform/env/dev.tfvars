@@ -14,7 +14,6 @@ https_ingress_port="443"
 
 #word-press task
 container_name_service1="quest-master"
-# container_image_service1=""
 container_image_service1_version="latest"
 service1_cpu="512"
 service1_memory="1024"

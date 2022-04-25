@@ -48,8 +48,6 @@ resource "aws_security_group" "service1" {
    
    #restricting ingress traffic from alb
    security_groups  = [aws_security_group.service1_alb.id]
-  #  cidr_blocks      = ["0.0.0.0/0"]
-  #  ipv6_cidr_blocks = ["::/0"]
   }
  
   egress {

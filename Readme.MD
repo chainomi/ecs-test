@@ -26,7 +26,7 @@
 
 ### Terraform apply
 1. Initialize terraform - `terraform init`
-2. Build infrastructure - `terraform apply -var-file=env/dev.tfvars -lock=false --auto-approve`
+2. Build infrastructure - `terraform apply -var-file=env/dev.tfvars --auto-approve`
 
 
 ### Docker - build image - (run commands from terraform folder)

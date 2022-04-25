@@ -13,12 +13,12 @@ variable "https_ingress_port"{}
 
 #quest app
 variable "container_port_service1" {}
+
 variable "host_port_service1" {}
 
 variable "container_name_service1"{}
-# variable "container_image_service1"{}
-variable "container_image_service1_version"{}
 
+variable "container_image_service1_version"{}
 
 variable "service1_health_check_path" {}
 
@@ -26,10 +26,9 @@ variable "service1_target_group_port" {}
 
 variable "service_private_dns_name" {}
 
-
 variable "service1_cpu" {}
-variable "service1_memory" {}
 
+variable "service1_memory" {}
 
 variable "route_53_hosted_zone_domain_name" {}
 
