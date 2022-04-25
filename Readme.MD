@@ -44,6 +44,6 @@
 1. `aws ecs update-service --force-new-deployment --service $(terraform output -raw service1_name) --cluster $(terraform output -raw cluster_name)`
 
 ## View pages
-https://quest-master.chainomi.link/loadbalanced
-https://quest-master.chainomi.link/secret_word
-https://quest-master.chainomi.link/tls
+>https://quest-master.chainomi.link/loadbalanced
+>https://quest-master.chainomi.link/secret_word
+>https://quest-master.chainomi.link/tls
