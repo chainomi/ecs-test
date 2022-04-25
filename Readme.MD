@@ -25,8 +25,10 @@
 1. Update the region (if needed) to match region used in creating s3 bucket.
 
 ### Terraform apply
-1. Initialize terraform - `terraform init`
-2. Build infrastructure - `terraform apply -var-file=env/dev.tfvars --auto-approve`
+1. `cd terraform/`
+2. `terraform init -backend-config="./config/backend.conf"`
+3. `terraform plan -var-file=env/dev.tfvars`
+4. `terraform apply -var-file=env/dev.tfvars --auto-approve`
 
 
 ### Docker - build image - (run commands from terraform folder)
