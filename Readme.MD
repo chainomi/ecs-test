@@ -2,16 +2,16 @@
 
 ## Deployment steps
 
-#### Configure AWS CLI
+### Configure AWS CLI
 1. Configure AWS CLI with credentials required to run the script for terraform backend creation and to run terraform commands.
 
-#### Update the backend.conf file  - if needed
+### Update the backend.conf file  - if needed
 1. Update `./terraform/config/backend.conf`
 2. Use an appropriate bucket name (if needed).
 3. Do the same for dynamodb table name (if needed).
 
 
-#### Create an s3 bucket for Terraform backend - (run commands from terraform folder)
+### Create an s3 bucket for Terraform backend - (run commands from terraform folder)
 1. From root folder, change directory into terraform folder - `cd ./terraform`
 2. Create s3 bucket for backend, for example, this command uses us-east-1 as an argument. The region can be changed to any desired region - `./config/create_backend.sh us-east-1`
 3. If a different region is used above, it (the region) should be updated in the following files:
