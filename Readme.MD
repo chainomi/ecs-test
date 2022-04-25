@@ -18,10 +18,10 @@
    > `terraform/backend.tf`
    > `terraform/env/dev.tfvars`
 
-#### Update backend.tf file
+### Update backend.tf file
 1. Update the region (if needed) to match region used in creating s3 bucket.
 
-#### Update dev.tfvars file
+### Update dev.tfvars file
 1. Update the region (if needed) to match region used in creating s3 bucket.
 
 ### Terraform apply
