@@ -43,7 +43,7 @@
 ### Restart ECS service to use pushed image - (run commands from terraform folder)
 1. `aws ecs update-service --force-new-deployment --service $(terraform output -raw service1_name) --cluster $(terraform output -raw cluster_name)`
 
-## View pages
->https://quest-master.chainomi.link/loadbalanced
->https://quest-master.chainomi.link/secret_word
->https://quest-master.chainomi.link/tls
+## View pages to confirm deployment
+>1. https://quest-master.chainomi.link/loadbalanced
+>2. https://quest-master.chainomi.link/secret_word
+>3. https://quest-master.chainomi.link/tls
